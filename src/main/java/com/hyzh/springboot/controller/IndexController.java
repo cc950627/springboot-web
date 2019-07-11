@@ -10,7 +10,6 @@ public class IndexController {
     @RequestMapping("index")
     public String index(Model model) {
         model.addAttribute("message","master");
-        model.addAttribute("message","bran");
         return "index";
     }
 }
